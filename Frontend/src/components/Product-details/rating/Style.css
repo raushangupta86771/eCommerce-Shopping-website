@@ -1,0 +1,9 @@
+.icon {
+    color: #FDCC0D;
+    font-size: 1.4rem;
+}
+
+.icon-style {
+    display: flex;
+    margin: 0.5rem auto;
+}

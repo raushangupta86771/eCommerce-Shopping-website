@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+
+html {
+    font-size: 100%;
+}
+
+.home-main {
+    /* background: rebeccapurple; */
+}
+
+
+.ad-bg {
+    /* From https://css.glass */
+    background: rgba(237, 229, 229, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.8px);
+    -webkit-backdrop-filter: blur(1.8px);
+    border: 1px solid rgba(230, 224, 224, 0.79);
+}
+
+.search-and-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.right-shift-slider {
+    width: 50%;
+    border-radius: 1rem;
+    /* border: 1px solid rgb(247, 219, 219); */
+    background-color: #fefefe;
+    padding: .6rem;
+    margin-right: auto;
+    float: right;
+}
+
+.slider-actual {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20rem;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-assignee {
+    /* padding-bottom: .6rem; */
+    /* width: 100%; */
+    background: #fefefe;
+    /* border-radius: .6rem; */
+    /* border: 1px solid none; */
+    border: none;
+    /* border: 1px solid rgb(247, 219, 219); */
+}
+
+.search-maintain {
+    padding: .6rem;
+    /* padding-bottom: .6rem; */
+    /* width: 100%; */
+    background: #fefefe;
+    border-radius: .6rem;
+    border: 1px solid rgb(247, 219, 219);
+    display: flex;
+}
+
+
+.seach-icon-adjust {
+    color: rgb(49, 57, 62);
+}
+
+.seach-icon-adjust:hover {
+    color: rgb(96, 56, 56);
+}

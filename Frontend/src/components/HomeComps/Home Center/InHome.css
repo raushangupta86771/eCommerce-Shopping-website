@@ -1,0 +1,99 @@
+.inner-detial {
+    justify-content: center;
+    display: flex;
+}
+
+.adj-crd {
+    background-image: linear-gradient(to top, #fcf6f7 0%, #ebeef4 99%, #eff5fe 100%);
+    border: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.adj-crd:hover {
+    transform: translateY(-10px);
+}
+
+.adjust-product {
+    height: 3rem;
+    overflow: hidden;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .home-main {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.pro-img-main {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pro-img-main:hover img {
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+
+.add-to-cart-btn1 {
+    color: rgb(0, 0, 0);
+    background: #f6b3b3;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    outline: 0;
+    padding: 10px 17px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.add-to-cart-btn1:hover {
+    color: rgb(210, 157, 34);
+    background: #eff5fe;
+}
+
+
+.add-to-cart-btn2 {
+    color: rgb(42, 28, 28);
+    background: #64b8f9;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    outline: 0;
+    padding: 10px 17px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.add-to-cart-btn2:hover {
+    color: rgb(62, 44, 2);
+    background: #d7dfe9;
+}

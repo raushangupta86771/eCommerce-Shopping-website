@@ -1,0 +1,35 @@
+.adNav {
+  background-color: rgb(239, 247, 240);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* height: 4rem; */
+}
+
+.adj-web-logo{
+  width: 22rem;
+}
+
+.nav-img-adjust {
+  height: 4.5rem;
+  width: 4.9rem;
+  border-radius: 40%;
+}
+
+.adNav-in {
+  background-color: rgb(239, 247, 240);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.adjust-chat-icon , .adj-in-chat {
+  color: rgb(48, 206, 222);
+  font-size: 2px;
+}
+
+.cart-adjust{
+  font-size: 30px;
+  color: #7a73fd;
+}
+
+.adj-user-analytics-logo{
+  width: 2rem;
+  height: 2rem;
+}
